@@ -1,6 +1,11 @@
-body {
+body { 
     font-family: Arial;
     text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
 }
 
 input {
@@ -11,4 +16,9 @@ button{
     padding: 10px;
     background-color: green;
     color: white;
+}
+
+li {
+    margin: 10px;
+    cursor: pointer;
 }
