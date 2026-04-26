@@ -1,19 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Lista de Tareas</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<body class="bg-light">
 
-    <h1>Lista de Tareas</h1>
-    <img src="https://unevoc.unesco.org/network/up/senati_ff-01.jpg" alt="Imagen SENATI" width="300">
-    
-    <input type="text" id="tarea" placeholder="Escribe una tarea">
-    <button onclick="agregarTarea()">Agregar</button>
-    <ul id="lista"></ul>
+<div class="container mt-5 text-center">
+    <h1 class="mb-4">Lista de Tareas</h1>
 
-    <script src="script.js"></script>
+    <img src="https://unevoc.unesco.org/network/up/senati_ff-01.jpg" width="120" class="mb-4">
 
+    <div class="input-group mb-3 w-50 mx-auto">
+        <input type="text" id="tarea" class="form-control" placeholder="Escribe una tarea">
+        <button class="btn btn-success" onclick="agregarTarea()">Agregar</button>
+    </div>
+
+    <ul id="lista" class="list-group w-50 mx-auto"></ul>
+</div>
+
+<script src="script.js"></script>
 </body>
-</html>
